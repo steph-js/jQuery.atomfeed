@@ -3,7 +3,7 @@ jQuery.atomfeed
 
 A lightweight atom feed parser based on jQuery.
 
-Copyright (c) 2013 steph - http://my.opera.com/steph-js/about/
+Copyright (c) 2013 steph - http://my.opera.com/steph-js/about/  
 Licensed under the MIT License.
 
 Usage
