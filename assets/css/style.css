@@ -1,0 +1,148 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  color: rgb(83, 78, 57);
+  background-color: rgb(117, 147, 133);
+  font-family: Verdana, Geneva, sans-serif;
+  border-top: 4px solid rgb(34, 57, 40);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  color: rgb(92, 92, 92);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6), -1px -1px 1px rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgb(92, 92, 92);
+}
+
+h1 + p {
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 1.2em;
+  font-family: Georgia, Serif;
+  font-style: italic;
+  text-align: right;
+}
+
+h2 {
+  margin: 40px 0 20px;
+  padding: 6px 12px;
+  color: rgb(92, 92, 92);
+  background-color: rgb(250, 249, 247);
+  font-family: Arial, Helvetica, sans-serif;
+  border-left: 12px solid rgb(115, 165, 66);
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(203, 52, 48);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  color: rgb(255,255, 255);
+  background-color: rgb(140, 216, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(140, 216, 12);
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(255, 255, 255, 0.9) inset, 0 -1px 3px rgba(0, 0, 0, 0.5) inset;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: rgb(128, 192, 8);
+  text-decoration: none;
+  border: 1px solid rgb(128, 192, 8);
+}
+
+dt {
+  font-style: italic;
+}
+
+dt + dd {
+  padding-bottom: 0.5em;
+}
+
+#wrapper {
+  width: 720px;
+  margin: 1em auto;
+  padding: 10px 20px 40px;
+  background-color: rgb(232, 229, 222);
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(255, 255, 255, 0.9) inset, 0 -1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+@media (max-width: 767px) {
+  #wrapper {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#wrapper nav {
+  margin-bottom: 20px;
+}
+
+header {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 15px 0 30px;
+  background-color: rgb(16, 16, 16);
+  text-indent: 2em;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+figure {
+  margin: 1em;
+  padding: 0;
+  border: 4px solid rgb(115, 165, 66);
+  border-radius: 5px;
+}
+
+figcaption {
+  padding: 4px 8px;
+  color: rgb(255,255, 255);
+  background-color: rgb(115, 165, 66);
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(64, 64, 64);
+}
+
+figure pre, code {
+  padding: 1px 2px;
+  color: rgb(152, 143, 103);
+  background-color: rgb(250, 249, 247);
+  font-family: 'Source Code Pro', 'Trebuchet MS', Helvetica, sans-serif;
+  border: 1px solid rgb(115, 165, 66);
+  border-radius: 2px;
+}
+
+figure pre {
+  margin: 0;
+  padding: 4px 8px;
+  line-height: 1.2em;
+  overflow: auto;
+}
