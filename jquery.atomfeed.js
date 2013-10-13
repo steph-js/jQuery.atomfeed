@@ -1,11 +1,11 @@
 /**
  * A lightweight atom feed parser.
- * @author: steph - http://my.opera.com/steph-js/about/
+ * @author: steph <http://my.opera.com/steph-js/about/>
  * @version: 1.0.0 (9-10-2013)
- * @license: http://www.opensource.org/licenses/mit-license.php The MIT License
- * Documentation and examples at http://pages.github.com/
+ * @license: The MIT License <http://www.opensource.org/licenses/mit-license.php>
+ * Documentation and examples at <http://steph-js.github.io/jQuery.atomfeed/>
  */
-(function($){
+;(function($){
   $.fn.atomfeed = function(options){
     var settings = $.extend({
       url: null,
